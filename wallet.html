@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>PGChain - Pangu Foundation</title>
+
+
+	<link rel="stylesheet" type="text/css" href="css/plugins.css">
+	<link rel="stylesheet" type="text/css" href="css/theme-styles.css">
+	<link rel="stylesheet" type="text/css" href="css/blocks.css">
+	<link rel="stylesheet" type="text/css" href="css/widgets.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700i,900," rel="stylesheet">
+
+
+	<!--Styles for RTL-->
+
+	<!--<link rel="stylesheet" type="text/css" href="css/rtl.css">-->
+
+
+</head>
+
+<body class="crumina-grid">
+
+
+<!-- Header -->
+
+<header class="header" id="site-header">
+	<div class="container">
+		<div class="header-content-wrapper">
+			<a href="/" class="site-logo">
+				<img src="img/pglogo@60.png" alt="PGChain">
+				PGChain
+			</a>
+
+			<nav id="primary-menu" class="primary-menu">
+
+				<!-- menu-icon-wrapper -->
+
+				<a href='javascript:void(0)' id="menu-icon-trigger" class="menu-icon-trigger showhide">
+					<span class="mob-menu--title">Menu</span>
+					<span id="menu-icon-wrapper" class="menu-icon-wrapper">
+						<svg width="1000px" height="1000px">
+							<path id="pathD" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+							<path id="pathE" d="M 300 500 L 700 500"></path>
+							<path id="pathF" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+						</svg>
+					</span>
+				</a>
+
+				<ul class="primary-menu-menu">
+					<li>
+						<a href="/">Home</a>
+					</li>
+
+					<li class="menu-item-has-children">
+						<a href="developer.html">Developer Hub</a>
+					</li>
+
+					<li class="menu-item-has-mega-menu menu-item-has-children">
+						<a href="#">Network</a>
+						<div class="megamenu megamenu-bg">
+							<div class="megamenu-row">
+
+								<div class="col4">
+									<ul>
+										<li class="megamenu-item-info">
+											<h5 class="megamenu-item-info-title">Tools</h5>
+										</li>
+										<li>
+											<a href="wallet.html">Wallet</a>
+										</li>
+										<li>
+											<a href="https://explorer.pgchain.org" target="_blank">Explorer</a>
+										</li>
+										<li>
+											<a href="staking.html">Staking</a>
+										</li>
+										<li>
+											<a href="https://status.pgchain.org" target="_blank">Status</a>
+										</li>
+									</ul>
+								</div>
+								<div class="col4">
+									<ul>
+										<li class="megamenu-item-info">
+											<h5 class="megamenu-item-info-title">Resources</h5>
+										</li>
+										<li>
+											<a href="https://docs.pgchain.org" target="_blank">Documentation</a>
+										</li>
+										<li>
+											<a href="https://www.pgchain.org/pgchain_technical_whitepaper_v0.1.pdf" download>Technical Whitepaper</a>
+										</li>
+										<li>
+											<a href="https://www.pgchain.org/pgchain_economics_whitepaper_v0.1.pdf" download>Economics Whitepaper</a>
+										</li>
+										<li>
+											<a href="https://docs.pgchain.org/legal" target="_blank">Legal</a>
+										</li>
+										<li>
+											<a href="/">Media Kits</a>
+										</li>
+										<li>
+											<a href="roadmap.html">Roadmap</a>
+										</li>
+									</ul>
+								</div>
+								<div class="col4">
+									<ul>
+										<li class="megamenu-item-info">
+											<h5 class="megamenu-item-info-title">Interact</h5>
+										</li>
+										<li>
+											<a href="https://apidocs.pgchain.org" target="_blank">RPC API</a>
+										</li>
+									</ul>
+								</div>
+
+								<div class="col4">
+
+								</div>
+
+							</div>
+						</div>
+					</li>
+
+
+
+
+					<li class="">
+						<a href="enterprise.html">Enterprise</a>
+					</li>
+
+					<li class="menu-item-has-mega-menu menu-item-has-children">
+						<a href="about.html">About</a>
+
+					</li>
+
+				</ul>
+
+			</nav>
+
+			<select class="woox--select language-switcher" data-minimum-results-for-search="Infinity" data-dropdown-css-class="language-switcher-dropdown">
+
+				<option value="English" data-href="/">English</option>
+				<option value="Chinese" data-href="/cn">中文</option>
+			</select>
+
+		</div>
+	</div>
+</header>
+
+<!-- ... end Header -->
+
+
+<div class="main-content-wrapper">
+
+	<section class="main-section medium-padding120 responsive-align-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mt60">
+					<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
+						<div class="heading-sup-title">PGWallet</div>
+						<h2 class="heading-title weight-normal">A convenient and secure
+wallet for
+							<span class="weight-bold">PGChain </span>users</h2>
+
+					</header>
+
+
+					<div class="btn-market-wrap mt60">
+						<a href="#" class="btn btn--market btn--apple btn--with-icon btn--icon-left">
+							<svg class="woox-icon icon-apple">
+								<use xlink:href="#icon-apple"></use>
+							</svg>
+							<div class="text">
+								<span class="sup-title">download on</span>
+								<span class="title">Apple Store</span>
+							</div>
+						</a>
+
+						<a href="#" class="btn btn--market btn--google btn--with-icon btn--icon-left">
+							<svg class="woox-icon icon-if-59-play-843782">
+								<use xlink:href="#icon-if-59-play-843782"></use>
+							</svg>
+							<div class="text">
+								<span class="sup-title">download on</span>
+								<span class="title">Google Play</span>
+							</div>
+						</a>
+					</div>
+				</div>
+
+				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mt30">
+					<img class="responsive-width-50" src="img/phone.png" alt="phone">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="pt-mobile-80">
+		<div class="container">
+
+			<hr class="divider">
+			<div class="row">
+
+				<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 pb80 pt80">
+					<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
+						<h2 class="heading-title heading--half-colored">What is PGWallet</h2>
+						<div class="heading-text">PGWallet is the official wallet of PGChain. PGC holders could use PGWallet to store $PGC, token issued on PGChain, vote for masternodes, track rewards and play with games & Dapps on PGChain.</div>
+					</header>
+				</div>
+			</div>
+			<hr class="divider">
+		</div>
+	</section>
+
+
+
+
+		<section>
+		<div class="container">
+			<div class="row medium-padding80">
+				<div class="row">
+					<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+						<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
+							<div class="heading-sup-title">Wallet Features</div>
+
+						</header>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mb30">
+					<div class="crumina-module crumina-info-box info-box--style6">
+						<div class="info-box-thumb">
+							<img src="img/insurance.png" class="pg-icon" alt="scalable">
+						</div>
+						<div class="info-box-content">
+							<h4 class="info-box-title">Intuitive, simple & <span>secure</span></h4>
+							<p class="info-box-text">PGWallet provides a simple and intuitive mobile interface that allows users to securely store/send/receive PGC and all tokens issued on PGChain. Transaction history can be easily tracked on PGWallet. PGWallet is the only wallet that supports the PGChain testnet for testing.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mb30">
+					<div class="crumina-module crumina-info-box info-box--style6">
+						<div class="info-box-thumb">
+							<img src="img/hand.png" class="pg-icon" alt="developer-friendly">
+						</div>
+						<div class="info-box-content">
+							<h4 class="info-box-title">Easy <span>PGC </span>Staking</h4>
+							<p class="info-box-text">PGWallet understands users' experience with PGChain's staking and incentive system, helping users easily track the associated rewards they receive from staking and masternodes running in real-time. As a result, managing revenue and maximizing profits becomes more efficient.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mb30">
+					<div class="crumina-module crumina-info-box info-box--style6">
+						<div class="info-box-thumb">
+							<img src="img/government.png" class="pg-icon" alt="security">
+						</div>
+						<div class="info-box-content">
+							<h4 class="info-box-title">Built in <span>governance</span> </h4>
+							<p class="info-box-text">PGWallet acts as a practical mobile utility to vote for Masternodes to secure the PGChain network.
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mb30">
+					<div class="crumina-module crumina-info-box info-box--style6">
+						<div class="info-box-thumb">
+							<img src="img/dapp.png" class="pg-icon" alt="security">
+						</div>
+						<div class="info-box-content">
+							<h4 class="info-box-title">Interact seamlessly with  <span>Dapps</span> </h4>
+							<p class="info-box-text">Dapp-browser bridges the gap between PGWallet and Dapps. The Dapp browser on PGWallet allows token holders to experience all Dapps and games deployed on PGChain. This is part of our contribution to delivering a great mobile user experience on the road to blockchain mass adoption.
+							</p>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+			<hr>
+		</div>
+	</section>
+
+
+	<section>
+		<div class="container">
+			<div class="row medium-padding100">
+				<div class="row">
+					<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+						<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
+							<div class="heading-sup-title">Frequently asked questions</div>
+
+						</header>
+					</div>
+				</div>
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb30">
+					<ul class="crumina-module crumina-accordion accordion--faqs" id="accordion7">
+
+						<li class="accordion-panel">
+							<div class="panel-heading">
+								<a href="#toggleSample7" class="accordion-heading collapsed" data-toggle="collapse" data-parent="#accordion" aria-expanded="false">
+									<span class="first-letter">Q</span>
+									<span class="title">How can I create a PGChain wallet address?</span>
+								</a>
+							</div>
+
+							<div id="toggleSample7" class="panel-collapse collapse" aria-expanded="false" role="tree" style="height: 40px;">
+								<span class="first-letter">A</span>
+								<div class="panel-info">
+									You can create a PGChain Wallet with the iOS or Android PGWallet app.
+								</div>
+							</div>
+						</li>
+
+						<li class="accordion-panel">
+							<div class="panel-heading">
+								<a href="#toggleOne7" class="accordion-heading collapsed" data-toggle="collapse" data-parent="#accordion" aria-expanded="false">
+									<span class="first-letter">Q</span>
+									<span class="title">What coin or token does PGWallet support?</span>
+								</a>
+							</div>
+
+							<div id="toggleOne7" class="panel-collapse collapse" aria-expanded="false" role="tree">
+								<span class="first-letter">A</span>
+								<div class="panel-info">
+									PGWallet supports native PGC and PGChain-based tokens on the PGChain Blockchain.
+								</div>
+							</div>
+						</li>
+
+						<li class="accordion-panel">
+							<div class="panel-heading">
+								<a href="#toggleTwo7" class="accordion-heading collapsed" data-toggle="collapse" data-parent="#accordion" aria-expanded="false">
+									<span class="first-letter">Q</span>
+									<span class="title">How do I protect my wallet and my funds from scammers?</span>
+								</a>
+							</div>
+
+							<div id="toggleTwo7" class="panel-collapse collapse" aria-expanded="false" role="tree">
+								<span class="first-letter">A</span>
+								<div class="panel-info">
+									PGWallet allows you to prevent unauthorized transactions by setting a password on the app itself. With this feature, you have to authenticate every time you initiate/make a transaction on PGWallet. You can enable password protection in Settings. Every wallet consists of two parts - a public key and a private key/mnemonic.
+									PGWallet stores your private key/mnemonic directly on your device. No service should ask you to provide your private key/mnemonic phrase. Anyone with your private key/mnemonic phrase can access your wallet and take full control of your funds. Tip: Make sure to upgrade your PGWallet to the latest version.
+								</div>
+							</div>
+						</li>
+
+						<li class="accordion-panel">
+							<div class="panel-heading">
+								<a href="#toggleFive7" class="accordion-heading collapsed" data-toggle="collapse" data-parent="#accordion" aria-expanded="false">
+									<span class="first-letter">Q</span>
+									<span class="title">How do I backup my wallet?</span>
+								</a>
+							</div>
+
+							<div id="toggleFive7" class="panel-collapse collapse" aria-expanded="false" role="tree">
+								<span class="first-letter">A</span>
+								<div class="panel-info">
+									Go to PGWallet, click “Settings” tab in the top left corner, select the wallet you want to backup, go to ""Show private key"" or ""Show recovery phase"", write it down and keep it safe.
+								</div>
+							</div>
+						</li>
+
+						<li class="accordion-panel">
+							<div class="panel-heading">
+								<a href="#toggleThree7" class="accordion-heading collapsed" data-toggle="collapse" data-parent="#accordion" aria-expanded="false">
+									<span class="first-letter">Q</span>
+									<span class="title">If I lost my back up, what should I do?</span>
+								</a>
+							</div>
+
+							<div id="toggleThree7" class="panel-collapse collapse" aria-expanded="false" role="tree">
+								<span class="first-letter">A</span>
+								<div class="panel-info">
+									You can always have multiple copies of backups if you think you can safely store them. Any valid backup (private key/mnemonic) will get you into the latest state of your wallet. We, PGWallet, do not have access to your wallet or private keys.
+									If you lose your device and backup, we cannot help you restore your backup. Make sure to store your backups in a safe place known only to you.
+								</div>
+							</div>
+						</li>
+
+
+
+					</ul>
+				</div>
+			</div>
+
+
+			<hr class="divider">
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+</div>
+
+<!-- Footer -->
+
+<footer id="site-footer" class="footer ">
+
+	<canvas id="can"></canvas>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12 col-sm-offset-0 col-xs-12">
+				<div class="widget w-info">
+					<a href="index.html" class="site-logo">
+						<img src="img/pglogo@60.png" alt="PGChain" />
+						PGChain
+					</a>
+					<p>The Efficient Blockchain Powered by Proof of Stake Voting Consensus</p>
+				</div>
+
+				<div class="widget w-contacts">
+					<ul class="socials socials--white">
+						<li class="social-item">
+							<a href="#">
+								<i class="fab fa-twitter woox-icon"></i>
+							</a>
+						</li>
+
+						<li class="social-item">
+							<a href="#">
+								<i class="fab fa-discord woox-icon"></i>
+							</a>
+						</li>
+
+						<li class="social-item">
+							<a href="#">
+								<i class="fab fa-instagram woox-icon"></i>
+							</a>
+						</li>
+
+						<li class="social-item">
+							<a href="#">
+								<i class="fab fa-telegram woox-icon"></i>
+							</a>
+						</li>
+
+						<li class="social-item">
+							<a href="#">
+								<i class="fab fa-facebook-square woox-icon"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="sub-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12 col-sm-offset-0 col-xs-12">
+
+					<span>© All rights reserved 2022.</span>
+					<span><a href="/">PGChain</a> - Pangu Foundation</span>
+
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<a class="back-to-top" href="#">
+		<svg class="woox-icon icon-top-arrow">
+			<use xlink:href="#icon-top-arrow"></use>
+		</svg>
+	</a>
+</footer>
+
+<!-- ... end Footer -->
+
+
+<script src="js/method-assign.js"></script>
+
+<!-- jQuery first, then Other JS. -->
+
+<script src="js/jquery-3.3.1.js"></script>
+
+<script src="js/js-plugins/leaflet.js"></script>
+<script src="js/js-plugins/MarkerClusterGroup.js"></script>
+<script src="js/js-plugins/crum-mega-menu.js"></script>
+<script src="js/js-plugins/waypoints.js"></script>
+<script src="js/js-plugins/jquery-circle-progress.js"></script>
+<script src="js/js-plugins/segment.js"></script>
+<script src="js/js-plugins/bootstrap.js"></script>
+<script src="js/js-plugins/imagesLoaded.js"></script>
+<script src="js/js-plugins/jquery.matchHeight.js"></script>
+<script src="js/js-plugins/jquery-countTo.js"></script>
+<script src="js/js-plugins/Headroom.js"></script>
+<script src="js/js-plugins/jquery.magnific-popup.js"></script>
+<script src="js/js-plugins/popper.min.js"></script>
+<script src="js/js-plugins/particles.js"></script>
+<script src="js/js-plugins/perfect-scrollbar.js"></script>
+<script src="js/js-plugins/jquery.datetimepicker.full.js"></script>
+<script src="js/js-plugins/svgxuse.js"></script>
+<script src="js/js-plugins/select2.js"></script>
+<script src="js/js-plugins/smooth-scroll.js"></script>
+<script src="js/js-plugins/sharer.js"></script>
+<script src="js/js-plugins/isotope.pkgd.min.js"></script>
+<script src="js/js-plugins/ajax-pagination.js"></script>
+<script src="js/js-plugins/swiper.min.js"></script>
+<script src="js/js-plugins/material.min.js"></script>
+<script src="js/js-plugins/orbitlist.js"></script>
+<script src="js/js-plugins/highstock.js"></script>
+<script src="js/js-plugins/bootstrap-datepicker.js"></script>
+<script src="js/js-plugins/TimeCircles.js"></script>
+<script src="js/js-plugins/ion.rangeSlider.js"></script>
+
+<!-- FontAwesome 5.x.x JS -->
+
+<script defer src="fonts/fontawesome-all.js"></script>
+
+<script src="js/main.js"></script>
+
+<!-- SVG icons loader -->
+<script src="js/svg-loader.js"></script>
+<!-- /SVG icons loader -->
+
+</body>
+</html>
