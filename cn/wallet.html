@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>PGChain - 盘古基金会</title>
+	<link rel="icon" type="image/png" href="https://pgchain.org/img/pglogo.png" />
+
+
+	<link rel="stylesheet" type="text/css" href="../css/plugins.css">
+	<link rel="stylesheet" type="text/css" href="../css/theme-styles.css">
+	<link rel="stylesheet" type="text/css" href="../css/blocks.css">
+	<link rel="stylesheet" type="text/css" href="../css/widgets.css">
+	<link rel="stylesheet" type="text/css" href="../css/font-awesome.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700i,900," rel="stylesheet">
+
+
+	<!--Styles for RTL-->
+
+	<!--<link rel="stylesheet" type="text/css" href="../css/rtl.css">-->
+
+
+</head>
+
+<body class="crumina-grid">
+
+
+<!-- Header -->
+
+<header class="header" id="site-header">
+	<div class="container">
+		<div class="header-content-wrapper">
+			<a href="/" class="site-logo">
+				<img src="../img/pglogo@60.png" alt="PGChain">
+				PGChain
+			</a>
+
+			<nav id="primary-menu" class="primary-menu">
+
+				<!-- menu-icon-wrapper -->
+
+				<a href='javascript:void(0)' id="menu-icon-trigger" class="menu-icon-trigger showhide">
+					<span class="mob-menu--title">菜单</span>
+					<span id="menu-icon-wrapper" class="menu-icon-wrapper">
+						<svg width="1000px" height="1000px">
+							<path id="pathD" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+							<path id="pathE" d="M 300 500 L 700 500"></path>
+							<path id="pathF" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+						</svg>
+					</span>
+				</a>
+
+				<ul class="primary-menu-menu">
+					<li>
+						<a href="/">主页</a>
+					</li>
+
+					<li class="menu-item-has-children">
+						<a href="developer">开发者中心</a>
+					</li>
+
+					<li class="menu-item-has-mega-menu menu-item-has-children">
+						<a href="#">网络</a>
+						<div class="megamenu megamenu-bg">
+							<div class="megamenu-row">
+
+								<div class="col4">
+									<ul>
+										<li class="megamenu-item-info">
+											<h5 class="megamenu-item-info-title">工具</h5>
+										</li>
+										<li>
+											<a href="wallet">钱包</a>
+										</li>
+										<li>
+											<a href="https://explorer.pgchain.org" target="_blank">区块链浏览器</a>
+										</li>
+										<li>
+											<a href="staking">质押</a>
+										</li>
+										<li>
+											<a href="https://status.pgchain.org" target="_blank">主网状态</a>
+										</li>
+									</ul>
+								</div>
+								<div class="col4">
+									<ul>
+										<li class="megamenu-item-info">
+											<h5 class="megamenu-item-info-title">资源</h5>
+										</li>
+										<li>
+											<a href="https://docs.pgchain.org" target="_blank">技術文档</a>
+										</li>
+										<li>
+											<a href="https://www.pgchain.org/pgchain_technical_whitepaper_v0.1.pdf" download>技术白皮书</a>
+										</li>
+										<li>
+											<a href="https://www.pgchain.org/pgchain_economics_whitepaper_v0.1.pdf" download>经济学白皮书</a>
+										</li>
+										<li>
+											<a href="https://docs.pgchain.org/legal" target="_blank">法律文档</a>
+										</li>
+										<li>
+											<a href="/">媒体工具包</a>
+										</li>
+										<li>
+											<a href="roadmap">路线图</a>
+										</li>
+									</ul>
+								</div>
+								<div class="col4">
+									<ul>
+										<li class="megamenu-item-info">
+											<h5 class="megamenu-item-info-title">互动</h5>
+										</li>
+										<li>
+											<a href="https://apidocs.pgchain.org" target="_blank">RPC API</a>
+										</li>
+									</ul>
+								</div>
+
+								<div class="col4">
+
+								</div>
+
+							</div>
+						</div>
+					</li>
+
+
+
+
+					<li class="">
+						<a href="enterprise">企业</a>
+					</li>
+
+					<li class="menu-item-has-mega-menu menu-item-has-children">
+						<a href="about">关于</a>
+
+					</li>
+
+				</ul>
+
+			</nav>
+
+			<select class="woox--select language-switcher" data-minimum-results-for-search="Infinity" data-dropdown-css-class="language-switcher-dropdown">
+
+				<option value="English" data-href="/">English</option>
+				<option value="Chinese" data-href="/cn">中文</option>
+			</select>
+
+		</div>
+	</div>
+</header>
+
+<!-- ... end Header -->
+
+
+<div class="main-content-wrapper">
+
+	<section class="main-section medium-padding120 responsive-align-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mt60">
+					<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
+						<div class="heading-sup-title">PGWallet</div>
+						<h2 class="heading-title weight-normal">一个方便又安全的
+钱包用于
+<span class="weight-bold">PGChain </span>用户</h2>
+
+					</header>
+
+
+					<div class="btn-market-wrap mt60">
+						<a href="#" class="btn btn--market btn--apple btn--with-icon btn--icon-left">
+							<svg class="woox-icon icon-apple">
+								<use xlink:href="#icon-apple"></use>
+							</svg>
+							<div class="text">
+								<span class="sup-title">下载</span>
+								<span class="title">Apple Store</span>
+							</div>
+						</a>
+
+						<a href="#" class="btn btn--market btn--google btn--with-icon btn--icon-left">
+							<svg class="woox-icon icon-if-59-play-843782">
+								<use xlink:href="#icon-if-59-play-843782"></use>
+							</svg>
+							<div class="text">
+								<span class="sup-title">下载</span>
+								<span class="title">Google Play</span>
+							</div>
+						</a>
+					</div>
+				</div>
+
+				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mt30">
+					<img class="responsive-width-50" src="../img/phone.png" alt="phone">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="pt-mobile-80">
+		<div class="container">
+
+			<hr class="divider">
+			<div class="row">
+
+				<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 pb80 pt80">
+					<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
+						<h2 class="heading-title heading--half-colored">什么是PGWallet</h2>
+						<div class="heading-text">PGWallet 是 PGChain 的官方钱包。 PGC 持有者可以使用 PGWallet 存储 $PGC、在 PGChain 上发行的代币、投票给主节点、跟踪奖励以及在 PGChain 上玩游戏和 Dapp。</div>
+					</header>
+				</div>
+			</div>
+			<hr class="divider">
+		</div>
+	</section>
+
+
+
+
+		<section>
+		<div class="container">
+			<div class="row medium-padding80">
+				<div class="row">
+					<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+						<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
+							<div class="heading-sup-title">钱包功能</div>
+
+						</header>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mb30">
+					<div class="crumina-module crumina-info-box info-box--style6">
+						<div class="info-box-thumb">
+							<img src="../img/insurance.png" class="pg-icon" alt="scalable">
+						</div>
+						<div class="info-box-content">
+							<h4 class="info-box-title">直观、简单且<span>安全</span></h4>
+							<p class="info-box-text">PGWallet 提供了一个简单直观的移动界面，允许用户安全地存储/发送/接收 PGC 和在 PGChain 上发行的所有代币。 交易历史可以在 PGWallet 上轻松跟踪。 PGWallet 是唯一支持 PGChain 测试网进行测试的钱包。
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mb30">
+					<div class="crumina-module crumina-info-box info-box--style6">
+						<div class="info-box-thumb">
+							<img src="../img/hand.png" class="pg-icon" alt="developer-friendly">
+						</div>
+						<div class="info-box-content">
+							<h4 class="info-box-title">简单的<span>PGC </span>质押</h4>
+							<p class="info-box-text">PGWallet 了解用户对 PGChain 的质押和激励系统的体验，帮助用户轻松跟踪他们从实时运行的质押和主节点中获得的相关奖励。 因此，管理收入和最大化利润变得更有效率。
+								<br/><br/>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mb30">
+					<div class="crumina-module crumina-info-box info-box--style6">
+						<div class="info-box-thumb">
+							<img src="../img/government.png" class="pg-icon" alt="security">
+						</div>
+						<div class="info-box-content">
+							<h4 class="info-box-title">内置<span>治理</span> </h4>
+							<p class="info-box-text">PGWallet 充当实用的移动实用程序，投票支持主节点以保护 PGChain 网络。
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mb30">
+					<div class="crumina-module crumina-info-box info-box--style6">
+						<div class="info-box-thumb">
+							<img src="../img/dapp.png" class="pg-icon" alt="security">
+						</div>
+						<div class="info-box-content">
+							<h4 class="info-box-title">与<span>Dapps</span>无缝交互</h4>
+							<p class="info-box-text">Dapp-browser 弥补了 PGWallet 和 Dapps 之间的差距。 PGWallet 上的 Dapp 浏览器允许代币持有者体验部署在 PGChain 上的所有 Dapp 和游戏。 这是我们为在区块链大规模采用的道路上所做的贡献，提供出色的移动用户体验。
+							</p>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+			<hr>
+		</div>
+	</section>
+
+
+	<section>
+		<div class="container">
+			<div class="row medium-padding100">
+				<div class="row">
+					<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+						<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
+							<div class="heading-sup-title">常见问题</div>
+
+						</header>
+					</div>
+				</div>
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb30">
+					<ul class="crumina-module crumina-accordion accordion--faqs" id="accordion7">
+
+						<li class="accordion-panel">
+							<div class="panel-heading">
+								<a href="#toggleSample7" class="accordion-heading collapsed" data-toggle="collapse" data-parent="#accordion" aria-expanded="false">
+									<span class="first-letter">Q</span>
+									<span class="title">如何创建 PGChain 钱包地址？</span>
+								</a>
+							</div>
+
+							<div id="toggleSample7" class="panel-collapse collapse" aria-expanded="false" role="tree" style="height: 40px;">
+								<span class="first-letter">A</span>
+								<div class="panel-info">
+									您可以使用 iOS 或 Android PGWallet 应用程序创建 PGChain 钱包。
+								</div>
+							</div>
+						</li>
+
+						<li class="accordion-panel">
+							<div class="panel-heading">
+								<a href="#toggleOne7" class="accordion-heading collapsed" data-toggle="collapse" data-parent="#accordion" aria-expanded="false">
+									<span class="first-letter">Q</span>
+									<span class="title">PGWallet 支持什么代币？</span>
+								</a>
+							</div>
+
+							<div id="toggleOne7" class="panel-collapse collapse" aria-expanded="false" role="tree">
+								<span class="first-letter">A</span>
+								<div class="panel-info">
+									PGWallet 在 PGChain 区块链上支持原生 PGC 和基于 PGChain 的代币。
+								</div>
+							</div>
+						</li>
+
+						<li class="accordion-panel">
+							<div class="panel-heading">
+								<a href="#toggleTwo7" class="accordion-heading collapsed" data-toggle="collapse" data-parent="#accordion" aria-expanded="false">
+									<span class="first-letter">Q</span>
+									<span class="title">如何保护我的钱包和资金免受诈骗者的侵害？</span>
+								</a>
+							</div>
+
+							<div id="toggleTwo7" class="panel-collapse collapse" aria-expanded="false" role="tree">
+								<span class="first-letter">A</span>
+								<div class="panel-info">
+									PGWallet 允许您通过在应用程序本身上设置密码来防止未经授权的交易。 使用此功能，您每次在 PGWallet 上发起/进行交易时都必须进行身份验证。 您可以在“设置”中启用密码保护。 每个钱包都由两部分组成——一个公钥和一个私钥/助记词。
+PGWallet 将您的私钥/助记词直接存储在您的设备上。 任何服务都不应要求您提供您的私钥/助记词。 任何拥有您的私钥/助记词的人都可以访问您的钱包并完全控制您的资金。 提示：确保将您的 PGWallet 升级到最新版本。
+								</div>
+							</div>
+						</li>
+
+						<li class="accordion-panel">
+							<div class="panel-heading">
+								<a href="#toggleFive7" class="accordion-heading collapsed" data-toggle="collapse" data-parent="#accordion" aria-expanded="false">
+									<span class="first-letter">Q</span>
+									<span class="title">如何备份我的钱包？</span>
+								</a>
+							</div>
+
+							<div id="toggleFive7" class="panel-collapse collapse" aria-expanded="false" role="tree">
+								<span class="first-letter">A</span>
+								<div class="panel-info">
+									进入PGWallet，点击左上角的“设置”选项卡，选择要备份的钱包，进入“显示私钥”或“显示恢复阶段”，记下并妥善保管。
+								</div>
+							</div>
+						</li>
+
+						<li class="accordion-panel">
+							<div class="panel-heading">
+								<a href="#toggleThree7" class="accordion-heading collapsed" data-toggle="collapse" data-parent="#accordion" aria-expanded="false">
+									<span class="first-letter">Q</span>
+									<span class="title">如果我失去了备份，我该怎么办？</span>
+								</a>
+							</div>
+
+							<div id="toggleThree7" class="panel-collapse collapse" aria-expanded="false" role="tree">
+								<span class="first-letter">A</span>
+								<div class="panel-info">
+									如果您认为可以安全地存储备份，则始终可以拥有多个备份副本。 任何有效的备份（私钥/助记词）都会让你进入钱包的最新状态。 我们 PGWallet 无权访问您的钱包或私钥。
+如果您丢失了设备和备份，我们将无法帮助您恢复备份。 确保将备份存储在只有您知道的安全地方。
+								</div>
+							</div>
+						</li>
+
+
+
+					</ul>
+				</div>
+			</div>
+
+
+			<hr class="divider">
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+</div>
+
+<!-- Footer -->
+
+<footer id="site-footer" class="footer ">
+
+	<canvas id="can"></canvas>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12 col-sm-offset-0 col-xs-12">
+				<div class="widget w-info">
+					<a href="index" class="site-logo">
+						<img src="../img/pglogo@60.png" alt="PGChain" />
+						PGChain
+					</a>
+					<p>由权益证明投票共识支持的高效区块链</p>
+				</div>
+
+				<div class="widget w-contacts">
+					<ul class="socials socials--white">
+						<li class="social-item">
+							<a href="#">
+								<i class="fab fa-twitter woox-icon"></i>
+							</a>
+						</li>
+
+						<li class="social-item">
+							<a href="#">
+								<i class="fab fa-instagram woox-icon"></i>
+							</a>
+						</li>
+
+						<li class="social-item">
+							<a href="#">
+								<i class="fab fa-telegram woox-icon"></i>
+							</a>
+						</li>
+
+					</ul>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="sub-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12 col-sm-offset-0 col-xs-12">
+
+					<span>© 版权所有 2022.</span>
+					<span><a href="/">PGChain</a> - 盘古基金会</span>
+
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<a class="back-to-top" href="#">
+		<svg class="woox-icon icon-top-arrow">
+			<use xlink:href="#icon-top-arrow"></use>
+		</svg>
+	</a>
+</footer>
+
+<!-- ... end Footer -->
+
+
+<script src="../js/method-assign.js"></script>
+
+<!-- jQuery first, then Other JS. -->
+
+<script src="../js/jquery-3.3.1.js"></script>
+
+<script src="../js/js-plugins/leaflet.js"></script>
+<script src="../js/js-plugins/MarkerClusterGroup.js"></script>
+<script src="../js/js-plugins/crum-mega-menu.js"></script>
+<script src="../js/js-plugins/waypoints.js"></script>
+<script src="../js/js-plugins/jquery-circle-progress.js"></script>
+<script src="../js/js-plugins/segment.js"></script>
+<script src="../js/js-plugins/bootstrap.js"></script>
+<script src="../js/js-plugins/imagesLoaded.js"></script>
+<script src="../js/js-plugins/jquery.matchHeight.js"></script>
+<script src="../js/js-plugins/jquery-countTo.js"></script>
+<script src="../js/js-plugins/Headroom.js"></script>
+<script src="../js/js-plugins/jquery.magnific-popup.js"></script>
+<script src="../js/js-plugins/popper.min.js"></script>
+<script src="../js/js-plugins/particles.js"></script>
+<script src="../js/js-plugins/perfect-scrollbar.js"></script>
+<script src="../js/js-plugins/jquery.datetimepicker.full.js"></script>
+<script src="../js/js-plugins/svgxuse.js"></script>
+<script src="../js/js-plugins/select2.js"></script>
+<script src="../js/js-plugins/smooth-scroll.js"></script>
+<script src="../js/js-plugins/sharer.js"></script>
+<script src="../js/js-plugins/isotope.pkgd.min.js"></script>
+<script src="../js/js-plugins/ajax-pagination.js"></script>
+<script src="../js/js-plugins/swiper.min.js"></script>
+<script src="../js/js-plugins/material.min.js"></script>
+<script src="../js/js-plugins/orbitlist.js"></script>
+<script src="../js/js-plugins/highstock.js"></script>
+<script src="../js/js-plugins/bootstrap-datepicker.js"></script>
+<script src="../js/js-plugins/TimeCircles.js"></script>
+<script src="../js/js-plugins/ion.rangeSlider.js"></script>
+
+<!-- FontAwesome 5.x.x JS -->
+
+<script defer src="fonts/fontawesome-all.js"></script>
+
+<script src="../js/main.js"></script>
+
+<!-- SVG icons loader -->
+<script src="../js/svg-loader.js"></script>
+<!-- /SVG icons loader -->
+
+</body>
+</html>

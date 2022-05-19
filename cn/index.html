@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>PGChain - 盘古基金会</title>
+	<link rel="icon" type="image/png" href="https://pgchain.org/img/pglogo.png" />
+
+	<link rel="stylesheet" type="text/css" href="../css/plugins.css">
+	<link rel="stylesheet" type="text/css" href="../css/theme-styles.css">
+	<link rel="stylesheet" type="text/css" href="../css/blocks.css">
+	<link rel="stylesheet" type="text/css" href="../css/widgets.css">
+	<link rel="stylesheet" type="text/css" href="../css/font-awesome.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700i,900," rel="stylesheet">
+
+
+	<!--Styles for RTL-->
+
+	<!--<link rel="stylesheet" type="text/css" href="css/rtl.css">-->
+
+
+</head>
+
+<body class="crumina-grid">
+
+
+	<!-- Header -->
+
+	<header class="header" id="site-header">
+		<div class="container">
+			<div class="header-content-wrapper">
+				<a href="/" class="site-logo">
+					<img src="../img/pglogo@60.png" alt="PGChain">
+					PGChain
+				</a>
+
+				<nav id="primary-menu" class="primary-menu">
+
+					<!-- menu-icon-wrapper -->
+
+					<a href='javascript:void(0)' id="menu-icon-trigger" class="menu-icon-trigger showhide">
+						<span class="mob-menu--title">菜单</span>
+						<span id="menu-icon-wrapper" class="menu-icon-wrapper">
+							<svg width="1000px" height="1000px">
+								<path id="pathD" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+								<path id="pathE" d="M 300 500 L 700 500"></path>
+								<path id="pathF" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+							</svg>
+						</span>
+					</a>
+
+					<ul class="primary-menu-menu">
+						<li>
+							<a href="/">主页</a>
+						</li>
+
+						<li class="menu-item-has-children">
+							<a href="developer">开发者中心</a>
+						</li>
+
+						<li class="menu-item-has-mega-menu menu-item-has-children">
+							<a href="#">网络</a>
+							<div class="megamenu megamenu-bg">
+								<div class="megamenu-row">
+
+									<div class="col4">
+										<ul>
+											<li class="megamenu-item-info">
+												<h5 class="megamenu-item-info-title">工具</h5>
+											</li>
+											<li>
+												<a href="wallet">钱包</a>
+											</li>
+											<li>
+												<a href="https://explorer.pgchain.org" target="_blank">区块链浏览器</a>
+											</li>
+											<li>
+												<a href="staking">质押</a>
+											</li>
+											<li>
+												<a href="https://status.pgchain.org" target="_blank">主网状态</a>
+											</li>
+										</ul>
+									</div>
+									<div class="col4">
+										<ul>
+											<li class="megamenu-item-info">
+												<h5 class="megamenu-item-info-title">资源</h5>
+											</li>
+											<li>
+												<a href="https://docs.pgchain.org" target="_blank">技術文档</a>
+											</li>
+											<li>
+												<a href="https://www.pgchain.org/pgchain_technical_whitepaper_v0.1.pdf" download>技术白皮书</a>
+											</li>
+											<li>
+												<a href="https://www.pgchain.org/pgchain_economics_whitepaper_v0.1.pdf" download>经济学白皮书</a>
+											</li>
+											<li>
+												<a href="https://docs.pgchain.org/legal" target="_blank">法律文档</a>
+											</li>
+											<li>
+												<a href="/">媒体工具包</a>
+											</li>
+											<li>
+												<a href="roadmap">路线图</a>
+											</li>
+										</ul>
+									</div>
+									<div class="col4">
+										<ul>
+											<li class="megamenu-item-info">
+												<h5 class="megamenu-item-info-title">互动</h5>
+											</li>
+											<li>
+												<a href="https://apidocs.pgchain.org" target="_blank">RPC API</a>
+											</li>
+										</ul>
+									</div>
+
+									<div class="col4">
+
+									</div>
+
+								</div>
+							</div>
+						</li>
+
+
+
+
+						<li class="">
+							<a href="enterprise">企业</a>
+						</li>
+
+						<li class="menu-item-has-mega-menu menu-item-has-children">
+							<a href="about">关于</a>
+
+						</li>
+
+					</ul>
+
+				</nav>
+
+				<select class="woox--select language-switcher" data-minimum-results-for-search="Infinity" data-dropdown-css-class="language-switcher-dropdown">
+
+					<option value="English" data-href="/">English</option>
+					<option value="Chinese" data-href="/cn">中文</option>
+				</select>
+
+			</div>
+		</div>
+	</header>
+
+	<!-- ... end Header -->
+
+
+<div class="main-content-wrapper">
+	<section data-settings="particles-1" class="main-section crumina-flying-balls particles-js bg-1 medium-padding120 responsive-align-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+					<!-- <img class="responsive-width-50" src="../img/main.png" alt="image"> -->
+				</div>
+				<div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
+					<header class="crumina-module crumina-heading heading--h1 heading--with-decoration">
+						<h1 class="heading-title f-size-90 weight-normal no-margin">由权益证明投票共识</h1>
+						<h2 class="c-link-color"><span class="weight-bold">支持的 </span> </h2>
+						<h2 class="heading-title heading--half-colored">高性能区块链</h2>
+					</header>
+					<a data-scroll href="#features" class="btn btn--large btn--transparent btn--secondary">开始入门</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+		<section class="bg-dotted-map">
+			<div class="container">
+				<div class="row medium-padding300 align-center">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<img class="primary-dots mb30" src="../img/dots.png" alt="dots">
+
+						<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
+							<h2 class="heading-title weight-normal">速度、隐私、可用性
+								<span class="weight-bold">和流动性</span></h2>
+							<div class="heading-text">集于一体</div>
+						</header>
+
+						<div class="counters">
+							<div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+								<div class="crumina-module crumina-counter-item">
+									<div class="counter-numbers counter">
+										<span data-speed="2000" data-refresh-interval="3" data-to="2000" data-from="2"></span>
+									</div>
+									<h4 class="counter-title">TPS</h4>
+
+									<div class="counter-line"></div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+								<div class="crumina-module crumina-counter-item">
+									<div class="counter-numbers counter">
+										<span data-speed="2000" data-refresh-interval="3" data-to="16" data-from="2">16</span>
+										<div class="units">mb</div>
+									</div>
+									<h4 class="counter-title">平均区块大小</h4>
+									<!-- <p class="counter-text">Sem integer vitae justo eget magna. Eget nullam non nisi est sit amet. Nec ultrices dui sapien eget mi proin. Commodo sed egestas egestas.</p> -->
+									<div class="counter-line"></div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+								<div class="crumina-module crumina-counter-item">
+									<div class="counter-numbers counter">
+										<span data-speed="2000" data-refresh-interval="3" data-to="8327" data-from="2"></span>
+										<div class="units"></div>
+									</div>
+									<h4 class="counter-title">总交易</h4>
+									<!-- <p class="counter-text">Gravida rutrum quisque non tellus orci ac. Elit duis tristique sollicitudin nibh sit amet commodo nulla facilisi.</p> -->
+									<div class="counter-line"></div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+								<div class="crumina-module crumina-counter-item">
+									<div class="counter-numbers counter">
+										<span data-speed="2000" data-refresh-interval="3" data-to="150" data-from="2"></span>
+										<div class="units">+</div>
+									</div>
+									<h4 class="counter-title">验证节点</h4>
+									<!-- <p class="counter-text">Feugiat in ante metus dictum at tempor commodo urna nunc id cursus.</p> -->
+									<div class="counter-line"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section id="features">
+		<div class="container">
+			<div class="row medium-padding80">
+				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+					<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
+						<div class="heading-sup-title">我们的特色</div>
+						<h2 class="heading-title weight-normal"><span class="weight-bold">可扩展</span> PoS 投票区块链</h2>
+						<div class="heading-text">
+							PGChain 区块链和产品生态系统支持高性能区块链项目的开发。 集合原始功能和协议，旨在支持一个平台中的速度、隐私、可用性和流动性需求。
+						</div>
+					</header>
+				</div>
+				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mb30">
+					<div class="crumina-module crumina-info-box info-box--style6">
+						<div class="info-box-thumb">
+							<img src="../img/expand.png" class="pg-icon" alt="scalable">
+						</div>
+						<div class="info-box-content">
+							<h4 class="info-box-title">可扩展及<span>高速</span></h4>
+							<p class="info-box-text">2000 TPS，2 秒出块时间
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mb30">
+					<div class="crumina-module crumina-info-box info-box--style6">
+						<div class="info-box-thumb">
+							<img src="../img/deal.png" class="pg-icon" alt="developer-friendly">
+						</div>
+						<div class="info-box-content">
+							<h4 class="info-box-title">开发者<span>友好</span></h4>
+							<p class="info-box-text">兼容EVM
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mb30">
+				</div>
+				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mb30">
+					<div class="crumina-module crumina-info-box info-box--style6">
+						<div class="info-box-thumb">
+							<img src="../img/insurance.png" class="pg-icon" alt="security">
+						</div>
+						<div class="info-box-content">
+							<h4 class="info-box-title"><span>安全性</span>增强</h4>
+							<p class="info-box-text">双重验证和随机化
+							</p>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+			<hr>
+		</div>
+	</section>
+
+	<section class="medium-padding120 responsive-align-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+					<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
+						<div class="heading-sup-title">我们的钱包</div>
+						<h2 class="heading-title weight-normal">您所有设备上的
+							<span class="weight-bold">货币统计</span></h2>
+						<div class="heading-text">我们的使命是通过使用掩盖区块链矛盾的技术，为现有的应用程序提供支持，同时保留其潜在利益，从而加速数百万用户加入。
+						</div>
+					</header>
+
+
+					<div class="btn-market-wrap mt60">
+						<a href="#" class="btn btn--market btn--apple btn--with-icon btn--icon-left">
+							<svg class="woox-icon icon-apple">
+								<use xlink:href="#icon-apple"></use>
+							</svg>
+							<div class="text">
+								<span class="sup-title">下载</span>
+								<span class="title">Apple Store</span>
+							</div>
+						</a>
+
+						<a href="#" class="btn btn--market btn--google btn--with-icon btn--icon-left">
+							<svg class="woox-icon icon-if-59-play-843782">
+								<use xlink:href="#icon-if-59-play-843782"></use>
+							</svg>
+							<div class="text">
+								<span class="sup-title">下载</span>
+								<span class="title">Google Play</span>
+							</div>
+						</a>
+					</div>
+				</div>
+
+				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mt30">
+					<img class="responsive-width-50" src="../img/phone.png" alt="phone">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="pt-mobile-80">
+		<div class="container">
+
+			<hr class="divider">
+			<div class="row">
+
+				<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 pb80 pt80">
+					<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
+						<h2 class="heading-title heading--half-colored">PGChain 先进的技术</h2>
+						<div class="heading-text">为您的所有去中心化应用程序赋能</div>
+					</header>
+					<a href="https://docs.pgchain.org" class="btn btn--market btn--google btn--with-icon btn--icon-left" target="_blank">
+						<svg class="woox-icon icon-if-59-play-843782">
+							<use xlink:href="#icon-next-2"></use>
+						</svg>
+						<div class="text">
+							<span class="title">开始構建</span>
+						</div>
+					</a>
+				</div>
+			</div>
+			<hr class="divider">
+		</div>
+	</section>
+
+
+	<section class="bg-1">
+
+		<div class="container">
+			<div class="row medium-padding120">
+				<div class="crumina-module crumina-featured-block">
+					<div class="image-block">
+						<img src="../img/pc.png" alt="phone">
+					</div>
+					<div class="text-block">
+						<header class="crumina-module crumina-heading heading--h2 heading--with-decoration">
+							<h2 class="heading-title weight-normal">您
+								<span class="weight-bold">值得信赖的</span>区块链金融科技合作伙伴</h2>
+							<div class="heading-text">通过我们可扩展、优化和用户友好的区块链生态系统发展您的金融系统。</div>
+						</header>
+
+						<div class="content-align-justify">
+
+							<a href="#" >
+							</a>
+							<a href="enterprise" class="btn btn--large btn--primary">开始学习</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<hr class="divider">
+		</div>
+
+	</section>
+
+
+</div>
+
+<!-- Footer -->
+
+<footer id="site-footer" class="footer ">
+
+	<canvas id="can"></canvas>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12 col-sm-offset-0 col-xs-12">
+				<div class="widget w-info">
+					<a href="index" class="site-logo">
+						<img src="../img/pglogo@60.png" alt="PGChain" />
+						PGChain
+					</a>
+					<p>由权益证明投票共识支持的高效区块链</p>
+				</div>
+
+				<div class="widget w-contacts">
+					<ul class="socials socials--white">
+						<li class="social-item">
+							<a href="#">
+								<i class="fab fa-twitter woox-icon"></i>
+							</a>
+						</li>
+
+						<li class="social-item">
+							<a href="#">
+								<i class="fab fa-instagram woox-icon"></i>
+							</a>
+						</li>
+
+						<li class="social-item">
+							<a href="#">
+								<i class="fab fa-telegram woox-icon"></i>
+							</a>
+						</li>
+
+					</ul>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="sub-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12 col-sm-offset-0 col-xs-12">
+
+					<span>© 版权所有 2022.</span>
+					<span><a href="/">PGChain</a> - 盘古基金会</span>
+
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<a class="back-to-top" href="#">
+		<svg class="woox-icon icon-top-arrow">
+			<use xlink:href="#icon-top-arrow"></use>
+		</svg>
+	</a>
+</footer>
+
+<!-- ... end Footer -->
+
+
+<script src="../js/method-assign.js"></script>
+
+<!-- jQuery first, then Other JS. -->
+
+<script src="../js/jquery-3.3.1.js"></script>
+
+<script src="../js/js-plugins/leaflet.js"></script>
+<script src="../js/js-plugins/MarkerClusterGroup.js"></script>
+<script src="../js/js-plugins/crum-mega-menu.js"></script>
+<script src="../js/js-plugins/waypoints.js"></script>
+<script src="../js/js-plugins/jquery-circle-progress.js"></script>
+<script src="../js/js-plugins/segment.js"></script>
+<script src="../js/js-plugins/bootstrap.js"></script>
+<script src="../js/js-plugins/imagesLoaded.js"></script>
+<script src="../js/js-plugins/jquery.matchHeight.js"></script>
+<script src="../js/js-plugins/jquery-countTo.js"></script>
+<script src="../js/js-plugins/Headroom.js"></script>
+<script src="../js/js-plugins/jquery.magnific-popup.js"></script>
+<script src="../js/js-plugins/popper.min.js"></script>
+<script src="../js/js-plugins/particles.js"></script>
+<script src="../js/js-plugins/perfect-scrollbar.js"></script>
+<script src="../js/js-plugins/jquery.datetimepicker.full.js"></script>
+<script src="../js/js-plugins/svgxuse.js"></script>
+<script src="../js/js-plugins/select2.js"></script>
+<script src="../js/js-plugins/smooth-scroll.js"></script>
+<script src="../js/js-plugins/sharer.js"></script>
+<script src="../js/js-plugins/isotope.pkgd.min.js"></script>
+<script src="../js/js-plugins/ajax-pagination.js"></script>
+<script src="../js/js-plugins/swiper.min.js"></script>
+<script src="../js/js-plugins/material.min.js"></script>
+<script src="../js/js-plugins/orbitlist.js"></script>
+<script src="../js/js-plugins/highstock.js"></script>
+<script src="../js/js-plugins/bootstrap-datepicker.js"></script>
+<script src="../js/js-plugins/TimeCircles.js"></script>
+<script src="../js/js-plugins/ion.rangeSlider.js"></script>
+
+<!-- FontAwesome 5.x.x JS -->
+
+<script defer src="fonts/fontawesome-all.js"></script>
+
+<script src="../js/main.js"></script>
+
+<!-- SVG icons loader -->
+<script src="../js/svg-loader.js"></script>
+<!-- /SVG icons loader -->
+
+</body>
+</html>
