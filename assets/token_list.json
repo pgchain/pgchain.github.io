@@ -18,7 +18,7 @@
       "address": "0xA24F46528936011E853213A22e761Eb5FF1De4f5",
       "symbol": "WPGC",
       "decimals": 18,
-      "chainId": 1,
+      "chainId": 1688388,
       "logoURI": "https://pgchain.org/assets/pgchain.png"
     },
     {
@@ -26,7 +26,7 @@
       "address": "0x08B536Fec92aDF5c919B3636Ec4A2b93AEeff1bc",
       "symbol": "OSK",
       "decimals": 18,
-      "chainId": 1,
+      "chainId": 1688388,
       "logoURI": "https://pgchain.org/assets/osk.png"
     },
   ]
