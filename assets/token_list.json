@@ -1,10 +1,10 @@
 {
   "name": "PGCSwap Default List",
-  "timestamp": "2022-08-18T00:00:00.000Z",
+  "timestamp": "2022-08-18T01:00:00.000Z",
   "version": {
     "major": 2,
     "minor": 0,
-    "patch": 0
+    "patch": 1
   },
   "tags": {},
   "logoURI": "https://pgchain.org/assets/pgchain.png",
@@ -30,9 +30,9 @@
       "logoURI": "https://pgchain.org/assets/osk.png"
     },
     {
-      "name": "OSK Token",
+      "name": "PUSDT Token",
       "address": "0x6062672F9300F8db8e580591891473f9B91CFFC6",
-      "symbol": "OSK",
+      "symbol": "PUSDT",
       "decimals": 18,
       "chainId": 1688388,
       "logoURI": "https://pgchain.org/assets/usdt.png"
