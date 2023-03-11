@@ -1087,6 +1087,11 @@ var CRUMINA = {};
 		}
 	});
 
+	$("#btn_close").click(function() {
+		$('.window-popup').removeClass('active');
+
+	})
+
 
 	/* -----------------------
   * Create the map
